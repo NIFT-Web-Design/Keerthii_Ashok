@@ -1,0 +1,376 @@
+header {
+  background-color: #282828;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  margin: 10px;
+  font-size: 13.5px;
+  color: white;
+  font-family: "ebrima";
+  font-weight: "bold";
+  text-decoration: none;
+}
+
+header nav .lastlink {
+  color: #f9c83b;
+}
+
+.active {
+  background-color: #107698;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+#logo {
+  height: 50px;
+}
+
+#section1 {
+  text-align: center;
+  background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
+  padding: 60px 0;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+  font-family: "calibri";
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#section2 {
+  text-align: center;
+  background-color: white;
+  padding: 60px 0;
+}
+
+h2 {
+  color: #0a465b;
+  font-family: "calibri";
+  font-weight: lighter;
+  font-size: 34px;
+}
+
+#section2 p {
+  color: #7f969e;
+  font-family: "calibri";
+  font-size: 17px;
+  width: 1000px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px 0;
+  line-height: 1.4;
+  height: 100%;
+}
+
+span {
+  color: orange;
+}
+
+.section3 {
+  text-align: center;
+  background-color: #edeff3;
+  padding: 60px 0;
+  margin: auto;
+}
+
+.section3 p.para {
+  color: #7f969e;
+  font-family: "calibri";
+  font-size: 17px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: normal;
+}
+
+h3 {
+  color: #0a465b;
+  font-family: "calibri";
+  font-weight: lighter;
+  font-size: 34px;
+}
+
+.section4 {
+  display: flex;
+  gap: 15px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1120px;
+}
+
+.section4 article {
+  max-width: 260px;
+  background-color: white;
+  box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+}
+
+.section4 article h4 {
+  background-color: #107698;
+  color: #fff;
+  padding: 0 16px;
+  min-height: 110px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "calibri";
+  font-weight: lighter;
+  border-bottom: solid #EDEFF3 8px;
+}
+
+.section4 article p {
+  text-align: left;
+  font-size: 17px;
+  color: #7f969e;
+  font-family: "calibri";
+  line-height: normal;
+  padding: 25px;
+  line-height: normal;
+}
+
+span {
+  color: orange;
+}
+
+.section5 {
+  text-align: center;
+  background-color: white;
+  padding: 60px 0;
+  margin: auto;
+}
+
+.section5 p {
+  color: #7f969e;
+  font-family: "calibri";
+  font-size: 17px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: normal;
+}
+
+h5 {
+  color: #0a465b;
+  font-family: "calibri";
+  font-weight: lighter;
+  font-size: 34px;
+}
+
+.section6 {
+  display: flex;
+  gap: 15px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1120px;
+}
+
+.section6 article {
+  max-width: 350px;
+  background-color: white;
+}
+
+.section6 article h6 {
+  color: #0a465b;
+  padding: 0 1px;
+  min-height: 50px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: "calibri";
+  font-weight: bold;
+  border-bottom: solid orange 2px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.section6 article p {
+  text-align: center;
+  font-size: 17px;
+  color: #7f969e;
+  font-family: "calibri";
+  line-height: normal;
+  padding: 25px;
+  line-height: normal;
+}
+
+.section7 {
+  display: flex;
+  gap: 15px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1120px;
+}
+
+.section7 article {
+  max-width: 350px;
+  background-color: white;
+}
+
+.section7 article h7 {
+  color: #0a465b;
+  padding: 0 1px;
+  min-height: 50px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: "calibri";
+  font-weight: bold;
+  border-bottom: solid orange 2px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.section7 article p {
+  text-align: center;
+  font-size: 17px;
+  color: #7f969e;
+  font-family: "ebrima";
+  line-height: normal;
+  padding: 25px;
+  line-height: normal;
+}
+
+.section8 {
+  text-align: center;
+  background-color: #edeff3;
+  padding: 60px 0;
+  margin: auto;
+}
+
+.section8 p.para1 {
+  color: #7f969e;
+  font-family: "calibri";
+  font-size: 17px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px 0;
+  line-height: 1.4;
+  height: 100%;
+}
+
+h8 {
+  color: #282828;
+  font-family: "calibri";
+  font-size: 34px;
+  font-weight: lighter;
+}
+
+.table {
+  display: flex;
+  gap: 30px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1120px;
+}
+
+.table article {
+  max-width: 360px;
+  background-color: white;
+  box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+}
+
+.table article h9 {
+  background-color: #107698;
+  color: #fff;
+  padding: 0 16px;
+  min-height: 110px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "calibri";
+  font-weight: lighter;
+  border-bottom: solid #EDEFF3 8px;
+}
+
+.table article p {
+  text-align: left;
+  font-size: 17px;
+  color: #7f969e;
+  font-family: "calibri";
+  line-height: normal;
+  padding: 25px;
+  line-height: normal;
+}
+
+.section9 {
+  text-align: center;
+  background-color: white;
+  font-size: 34px;
+  font-family: "calibri";
+  font-weight: lighter;
+  color: #0a465b;
+  padding: 60px 0;
+  margin-bottom: 40px;
+}
+
+.section10 {
+  width: 165px;
+  font-size: 24px;
+  font-family: "calibri"
+    margin: 0 auto;
+  text-transform: capitalize;
+  color: white;
+  padding: 15px 0px 15px 50px;
+  background-color: #107698;
+  border: 2px solid #FDB530;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
+}
+
+.info5 {
+  text-align: center;
+  background-color: #edeff3;
+  padding: 60px 0;
+  margin: auto;
+}
+
+.info5 img {
+  text-align: center;
+  margin: auto;
+  height: 90px;
+}
+
+footer {
+  padding: 40px 0;
+  background-color: #504f4f;
+  text-align: center;
+  color: #c7c5c5;
+  font-size: 18px;
+  line-height: 1.4;
+  display: block;
